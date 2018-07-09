@@ -12,3 +12,7 @@ header {
     text-justify: inter-word;
 }
 
+.rounded-circle {
+    width: 70%;
+	height: 70%;
+}
