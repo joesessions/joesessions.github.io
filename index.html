@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
   <head>
@@ -292,24 +292,62 @@
 
     <!-- Portfolio Modal 1 -->
     <div class="portfolio-modal mfp-hide" id="portfolio-modal-1">
-      <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-          <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
-              <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/cabin.png" alt="">
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                <i class="fa fa-close"></i>
-                Close Project</a>
+        <div class="portfolio-modal-dialog bg-white">
+            <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+                <i class="fa fa-3x fa-times"></i>
+            </a>
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-lg-10 mx-auto">
+                        <h2 class="text-secondary text-uppercase mb-0">Health Risk Screening Tool</h2>
+                        <hr class="star-dark mb-5">
+                        <img class="img-fluid mb-5" src="img/HRSTlogoTrimmed.png" alt="">
+                        <p class="mb-5">
+                            When I worked with Health Risk Screening, Inc., the company consisted of two founders: Karen McGowan and her son, Eric Green. Karen, in her long career of healthcare, had been developing a tool which caregivers used to give scores to their customers. The tool was originally a paper form which caregivers filled in to produce a score. If properly used, the tool avoids preventable deaths.       </p>
+                        <p>The caregivers, who are rarely medically trained and sometimes not even high school graduates, need to be able to produce accurate scores while wading through the scoring criteria such as these:</p>
+                    </div>
+                    <img class="img-fluid center" id="Capture" src="img/HRSTimages/Capture.png" alt=""> <br>
+                </div>
+                <div class="row">
+                    <div class="col-lg-10 mx-auto">
+                        <p class="mb-5">
+                            There are twenty-two such scoring areas. Beyond moral support to the founders, my first task was to devise training that would bring the caregivers up to the ability to score all areas correctly. The more we looked at this, the more I saw that a completely different solution was needed, and so came up with a series of boolean question trees asked by the computer to guide the users to the right answer: (read from the bottom up - in use, ssuccessive questions appear depending on each answer)  </p>
+                    </div>
+                    <img class="img-fluid center" id="Capture" src="img/HRSTimages/Capture2.png" alt=""> <br>
+                        <p class="mb-5">
+                            I studied the scoring manual thoroughly and wrote the XML file that contains the above questions as well as the accompanying logic. I then took Karen through every path on each of the twenty-two decision trees to ensure that I had not altered the intent on each area. Currently the HRST is utilized by Intellectual and Developmental Disabilities and Behavioral Health Divisions in nine states and over 2,000 private provider agencies in the United States. </p>
+                    
+                        <p class="mb-5">
+                            I worked as a consultant over many years with them. Eric wrote this recommendation regarding my contributions:
+                        </p>
+                        <p  id="ericsTestimonial">
+                            I have known Joe Sessions for around twenty years. He is one of the most intelligent and logical-thinking people I have ever known. He thinks like you would expect a Georgia Tech mechanical engineering graduate to think.<br><br>
+
+                            I myself have been a software engineer for over twenty years now. I have been developing and architecting enterprise Java applications for over twelve of those years. The best recommendation of Joe Sessions’ abilities I could offer would be to cite a story about a time when I was stuck on what remains to this day the worst and longest stuck point I have ever encountered in my twenty-year software development career.<br><br>
+
+                            I was working on an EJB (enterprise java beans) application which would not properly send data across the network and I could not solve the problem for well over a month. I consulted the best Java architects and engineers I knew, and many had advice on where to look, but none were able to offer anything that enabled me to solve the problem. Joe, hearing of how much this was troubling me, sat down with me one day and just kept asking me questions about the problem. He applied a general logic and problem-solving approach to help me zero in on the exact cause of the difficulty. Within less than thirty minutes, his questions had me zeroed in on the correct area such that the cause became abundantly clear. From this point the fix was very simple.<br><br>
+
+                            I can also name another situation where Joe demonstrated his considerable competence in the area for which I would imagine you to be interested in him. Some years back I was working on a project that required people with little-to-no healthcare training to arrive at a score in order to know how much medical attention a given individual either needed or did not need. Joe offered up a brilliant solution whereby a “scoring wizard” was devised that led the untrained person to the exact correct score by asking a series of questions that they could easily answer. In addition to offering up this idea, he designed the system for implementing it wherein the questions, logic and data for each scoring wizard area were encapsulated into an XML descriptor file such that I, as the software developer, was able to easily write code to implement the scoring wizard. This innovation occurred back around 2006 and remains, to this day (9 July 2018), to be a crucial part of the overall success of this web-based tool (HRST – see hrstonline.com) in allowing it to assist in the prevention of preventable deaths in at-risk populations placed in long-term care.<br><br>
+
+                            I have known Joe to be an extremely ethical person judging from all the dealings in which I have observed him or been involved with him personally. He is very ambitious and disciplined when it comes to completing a project for which he is responsible.<br><br>
+
+                            If you were to hire Joe and ever come to regret it, I would be hugely surprised, judging from what I have observed of his work ethic, superior problem-solving ability and general intellect and competence level over the twenty-plus years I have known him.<br><br>
+
+
+                            Sincerely,<br>
+                            Eric Green<br>
+                            (770) 912-4867<br>
+                            ericgreen86@yahoo.com<br>
+
+                        </p>
+                    <div>
+                        <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                            <i class="fa fa-close" id="closeProjectButton"></i>Close Project
+                        </a>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </div>
 
     <!-- Portfolio Modal 2 -->
