@@ -22,7 +22,10 @@ header {
 	width: 94%;
 	position: center;
 }
- 
+#Capture2 {
+	max-width: 700px;
+	position: center;
+}
 #closeProjectButton {
 	margin: auto;
 	position: center;
