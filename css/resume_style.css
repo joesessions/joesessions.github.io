@@ -12,3 +12,23 @@ header {
     text-justify: inter-word;
 }
 
+.rounded-circle {
+    width: 70%;
+	height: 70%;
+}
+
+#Capture {
+	margin: auto;
+	width: 94%;
+	position: center;
+}
+ 
+#closeProjectButton {
+	margin: auto;
+	position: center;
+}
+
+#ericsTestimonial {
+    text-align: left;
+    font-style: italic;
+} 
