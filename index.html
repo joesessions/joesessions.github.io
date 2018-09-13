@@ -137,7 +137,7 @@
                   <i class="fa fa-search-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/coderepository.png" alt="">
+              <img class="img-fluid" src="img/StringBuilderSpeedTest.png" alt="">
             </a>
           </div> 
           <div class="col-md-6 col-lg-4">
@@ -150,7 +150,16 @@
               <img class="img-fluid" src="img/PowerPointProducer.png" alt="">
             </a>
           </div> 
-          
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-9">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/coderepository.png" alt="">
+            </a>
+          </div> 
         </div>
       </div>
     </section>
@@ -496,8 +505,8 @@ Students have loved playing this, despite only being a console app.<br> <br>
       </div>
     </div>
 
-    <!-- Portfolio Modal 7 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-7">
+     <!-- Portfolio Modal 7 -->
+     <div class="portfolio-modal mfp-hide" id="portfolio-modal-7">
       <div class="portfolio-modal-dialog bg-white">
         <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
           <i class="fa fa-3x fa-times"></i>
@@ -505,10 +514,19 @@ Students have loved playing this, despite only being a console app.<br> <br>
         <div class="container text-center">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Link to Github</h2>
+              <h2 class="text-secondary text-uppercase mb-0">StringBuilder vs. string types</h2>
               <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/coderepository.png" alt="">
-              <div class="jumbotron"> <a href="https://github.com/joesessions">The Link to My Github!</a><br> </div>
+              <img class="img-fluid mb-5" src="img/StringBuilderOutput.png" alt="">
+              <p class="mb-5">In C#, the string variable type is immutable, whereas the StringBuilder type is mutable. <br><br>
+
+                In other words, when we modify a string variable, we are really deleting the first one and creating a second one.<br><br>
+                How much time and hardware resources could this possibly waste? <br><br>
+                This short project shows - more than you might think! StringBuilder is 145 times faster! <br><br>
+                The output is shown above. <br><br>
+
+
+                    <br>
+              <div class="mb-5"> <a href="https://github.com/joesessions/StringVsStringBuilder">Link to the code</a><br> </div>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Close Project</a>
@@ -528,8 +546,15 @@ Students have loved playing this, despite only being a console app.<br> <br>
             <div class="col-lg-8 mx-auto">
               <h2 class="text-secondary text-uppercase mb-0">Power Point Producer</h2>
               <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/PowerPointProducer.png" alt="">
-              <div class="jumbotron"> <a href="https://github.com/joesessions/PowerPointProducer">Link to the code</a><br> </div>
+              <img class="img-fluid mb-5" src="img/PowerPointProducer2.png" alt="">
+              <p class="mb-5">This coding challenge was given as part of a hiring process:<br><br>
+
+                Create a solution, using windows forms in Visual Studio, that accepts user input with which to generate a powerpoint-style slide.<br><br>
+                Have input boxes for 1) a title area and 2) text in the description area for the final slide. <br><br>
+                Using all the words in the title as search words, plus any bold words from the description, produce images the user can select to include in the slide.  <br><br>
+
+                    <br>
+              <div class="mb-5"> <a href="https://github.com/joesessions/PowerPointProducer">Link to the code</a><br> </div>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Close Project</a>
@@ -538,6 +563,27 @@ Students have loved playing this, despite only being a console app.<br> <br>
         </div>
       </div>
     </div>
+        <!-- Portfolio Modal 9 -->
+        <div class="portfolio-modal mfp-hide" id="portfolio-modal-9">
+          <div class="portfolio-modal-dialog bg-white">
+            <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+              <i class="fa fa-3x fa-times"></i>
+            </a>
+            <div class="container text-center">
+              <div class="row">
+                <div class="col-lg-8 mx-auto">
+                  <h2 class="text-secondary text-uppercase mb-0">Link to Github</h2>
+                  <hr class="star-dark mb-5">
+                  <img class="img-fluid mb-5" src="img/coderepository.png" alt="">
+                  <div class="jumbotron"> <a href="https://github.com/joesessions">The Link to My Github!</a><br> </div>
+                  <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                    <i class="fa fa-close"></i>
+                    Close Project</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
